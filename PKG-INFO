@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gbit
+Version: 0.1.6
+Summary: GTFOBINS in the Terminal
+Author: Calvin Kimani
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+
+# gbit
+
+GtfoBin In the Terminal
+
+To use run:
+~~~
+gbit [binary]
+~~~
+
