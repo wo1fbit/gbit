@@ -7,5 +7,4 @@ To use run:
 gbit [binary]
 ~~~
 
-cheers;
-wolf.
+Cheers, Wolf.
