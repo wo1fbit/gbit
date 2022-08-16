@@ -13,16 +13,18 @@ def run():
 		print("example: gbit less")
 		sys.exit(0)
 
-	gtfobin = sys.argv[1]
-	dir_path = path.dirname(path.realpath(__file__)) # get the path to the current directory
-	binaries = listdir(dir_path) # get the modules
+	gtfobin = sys.argv[1].lower()
+	if gtfobin in ["var", 'var.py', '__init__', '__init__.py', 'runner_.py', 'runner_']:
+		sys.exit()
 
-	if gtfobin.lower()+".py" not in binaries: # check if the requested binary is in the modules
-		print(f"{gtfobin} yet to be added.")
-		sys.exit(0)
+	dir_path = path.dirname(path.realpath(__file__))+"/bin"
+	binaries = listdir(dir_path)
+
+	if gtfobin+".py" not in binaries:
+		sys.exit()
 	
 	sys.path.insert(0, dir_path)
-	module_s = import_module(f"{gtfobin}") # load the module
+	module_s = import_module(f"{gtfobin}")
 	print(module_s.gtfobin)
 
 if __name__ == "__main__":
