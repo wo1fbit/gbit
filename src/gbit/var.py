@@ -9,6 +9,7 @@ File_download = colored("File Download", 'yellow', attrs=['bold'])
 File_write = colored("File Write", 'yellow', attrs=['bold'])
 File_read = colored("File Read", 'yellow', attrs=['bold'])
 Library_load = colored("Library load", 'yellow', attrs=['bold'])
+Command = colored("Command", 'yellow', attrs=['bold'])
 line = colored("-------------", "red", attrs=['bold'])
 
 etc_passwd = colored("/etc/passwd", 'red')
