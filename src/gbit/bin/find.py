@@ -27,6 +27,4 @@ gtfobin = f"""
 {colored("may be used to access the file system, escalate or maintain privileged access.", 'blue')}
 
 {colored(f"sudo find . -exec /bin/sh {chr(92)}; -quit", 'green')}
-
-{colored("cheers, wolf 🐺.", 'red', 'on_yellow', attrs=['bold', 'dark'])}
 """

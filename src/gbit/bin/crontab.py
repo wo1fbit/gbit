@@ -14,6 +14,4 @@ gtfobin = f"""
 {colored("may be used to access the file system, escalate or maintain privileged access.", 'blue')}
 {colored("The commands are executed according to the crontab file edited via the crontab utility.", 'blue')}
 {colored("    sudo crontab -e", 'green')}
-
-{colored("cheers, wolf 🐺.", 'red', 'on_yellow', attrs=['bold', 'dark'])}
 """

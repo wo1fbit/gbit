@@ -53,6 +53,4 @@ gtfobin = f"""
 
 {colored("sudo less /etc/profile", 'green')}
 {colored("!/bin/sh", 'green')}
-
-{colored("cheers, wolf 🐺.", 'red', 'on_yellow', attrs=['bold', 'dark'])}
 """
